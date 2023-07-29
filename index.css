@@ -1,0 +1,30 @@
+.profile-img{
+    background: url(profile-pic.png) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 250px;
+    height: 250px;
+}
+
+.row{
+    display: flex;
+}
+
+.column {
+float: left;
+padding: 10px;
+}
+
+.left {
+width: 25%;
+background-color: white;
+}
+
+.right {
+width: 75%;
+background-color: gray;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
